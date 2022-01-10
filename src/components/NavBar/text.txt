@@ -1,0 +1,8 @@
+<ul className="nav">
+				{data.map((item) => (
+					<li>
+						<a href={item.enlace}>{item.nombre}</a>
+					</li>
+                ))}
+                <CartWidget />
+			</ul>
